@@ -82,7 +82,7 @@ def main():
             loss.backward()
             optimizer.step()
             optimizer.zero_grad()
-            if i%10 == 0:
+            if i % 10 == 0:
                 print(f'Epoch {epoch} Batch {i} Loss {loss.item()}')
 
         print("-" * 20)
