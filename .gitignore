@@ -1,4 +1,5 @@
 __pycache__/
 *.sw[op]
-addition/*.json
-addition/models
+slope/*.json
+slope/models
+wandb
